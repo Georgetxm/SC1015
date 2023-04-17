@@ -1,4 +1,4 @@
-# SC1015 Mini-Project - Estimating Time for Food Delivery
+# SC1015 Mini-Project - Estimating Time of Food Delivery
 
 ## About 
 This is the mini project for SC1015 - Introduction to Data Science and Artificial Intelligence (DSAI). We performed analysis on the estimated time for food delivery [dataset](https://www.kaggle.com/datasets/gauravmalik26/food-delivery-dataset?select=train.csv) from Kaggle.
