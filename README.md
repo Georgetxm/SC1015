@@ -11,7 +11,6 @@ This is the mini project for SC1015 - Introduction to Data Science and Artificia
 
 ### Problem Definition
 - Can we predict the estimated time of delivery based on the delivery rider's attributes?
-- Are we able to identify any biases in ratings based strictly on the attributes of the delivery rider, omitting delivery timings?
 
 ### Resources (found in this folder)
 
