@@ -39,3 +39,12 @@ With online orders increasing since the pandemic, customers want to know when th
 ### Contributors
 
 ### References
+1. [Data-to-Viz](https://www.data-to-viz.com/)
+2. [Outliers: Keep or Drop](https://towardsdatascience.com/outliers-keep-or-drop-892b599b8ab6)
+3. [Guidelines for removing outliers](https://statisticsbyjim.com/basics/remove-outliers/)
+4. [Regularisation in Machine Learning](https://towardsdatascience.com/regularization-in-machine-learning-76441ddcf99a)
+5. [L1, L2 Norm and Regularisation](https://www.analyticssteps.com/blogs/l2-and-l1-regularization-machine-learning)
+6. [Random Forest Regression](https://towardsdatascience.com/random-forest-regression-5f605132d19d)
+7. [Lasso Regression](https://www.mygreatlearning.com/blog/understanding-of-lasso-regression/#:~:text=Lasso%20regression%20is%20a%20regularization,i.e.%20models%20with%20fewer%20parameters)
+8. [Introduction to XGBoost Algorithm](https://www.analyticsvidhya.com/blog/2018/09/an-end-to-end-guide-to-understand-the-math-behind-xgboost/)
+9. [XGBoost Algorithm](https://towardsdatascience.com/https-medium-com-vishalmorde-xgboost-algorithm-long-she-may-rein-edd9f99be63d)
