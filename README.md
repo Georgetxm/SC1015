@@ -26,9 +26,13 @@ With online orders increasing since the pandemic, customers want to know when th
 ### Walk-Through
 1. [Data Preparation and Cleaning](https://github.com/Georgetxm/SC1015/blob/main/Data_Preparation_Cleaning.ipynb)
 2. [Exploratory Data Analysis, Data-Driven Insights & Recommendations](https://github.com/Georgetxm/SC1015/blob/main/Exploratory_Data_Analysis.ipynb)
-3. [Machine Learning Techniques to solve the problem](https://github.com/Georgetxm/SC1015/blob/main/Machine_Learning_(w_Distance).ipynb)
+3. [Machine Learning Techniques to solve the problem](https://github.com/Georgetxm/SC1015/blob/main/Machine_Learning_without_distance.ipynb)
+4. [Machine Learning with engineered feature: distance](https://github.com/Georgetxm/SC1015/blob/main/Machine_Learning_V2_w_distanceipynb)
+
+    We have 2 notebooks showcase the differences of our models with and without the engineered feature. Please use [4](https://github.com/Georgetxm/SC1015/blob/main/Machine_Learning_V2_w_distanceipynb) to grade us as 3 is merely to showcase our thought process.
 
 ### Conclusion
+1. Identified,
 
 ### Key Learning Points
 
