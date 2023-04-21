@@ -32,9 +32,26 @@ With online orders increasing since the pandemic, customers want to know when th
     We have 2 notebooks showcase the differences of our models with and without the engineered feature. Please use [4](https://github.com/Georgetxm/SC1015/blob/main/Machine_Learning_V2_w_distanceipynb) to grade us as 3 is merely to showcase our thought process.
 
 ### Conclusion
-1. Identified,
+- Answering our sub-problem, we are unable to find any relation between ratings and other categorical features. Hence, we conclude that there are no biases in ratings.
+- Factors that could affect **Delivery Time** includes:
+    - Numerical Columns 
+        - Distances, Multiple deliveries and age. (Positive Correlation)
+        - Ratings (Negatively Correlated)
+    - Categorical Features 
+        - Traffic Density
+        - City Terrain 
+        - Weather
+    
+- The XGBoost model we implemented to estimate delivery time has a 79% accuracy with a marginable error of estimation of just 18.
+- From our findings, we can suggest that to reduce the delivery time, the algorithm can be further optimised such that it minimises delivery distances between a user and the nearest restaurant. Secondly, allow the users to prioritise their deliveries through a greater fee to ensure that the deliverer is only delivering his/her order. Lastly, for users to avoid peak lunch hours like 12pm to 2pm and dinner period like 5pm to 8pm for faster deliveries. 
 
 ### Key Learning Points
+1. Using Plotly as a tool for interactive visualisation
+2. Deriving distance from latitude and longitude coordinates, using the haversine formula;
+3. Feature Engineering
+4. Implmentation of XGBoost Algorithm 
+5.
+6.
 
 ### Contributors
 
@@ -48,3 +65,4 @@ With online orders increasing since the pandemic, customers want to know when th
 7. [Lasso Regression](https://www.mygreatlearning.com/blog/understanding-of-lasso-regression/#:~:text=Lasso%20regression%20is%20a%20regularization,i.e.%20models%20with%20fewer%20parameters)
 8. [Introduction to XGBoost Algorithm](https://www.analyticsvidhya.com/blog/2018/09/an-end-to-end-guide-to-understand-the-math-behind-xgboost/)
 9. [XGBoost Algorithm](https://towardsdatascience.com/https-medium-com-vishalmorde-xgboost-algorithm-long-she-may-rein-edd9f99be63d)
+10. [Exploratory Data Analysis : A Beginners Guide To Perform EDA](https://www.analyticsvidhya.com/blog/2021/06/exploratory-data-analysis-a-beginners-guide-to-perform-eda/)
