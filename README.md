@@ -25,9 +25,41 @@ With online orders increasing since the pandemic, customers want to know when th
 
 ### Walk-Through
 1. [Data Preparation and Cleaning](https://github.com/Georgetxm/SC1015/blob/main/Data_Preparation_Cleaning.ipynb)
+    - Extracting numeric values to type int64 and dropping NA values of “Time_taken(min)” 
+    - Removing the “conditions” word present in every row from “Weatherconditions” column
+    - Outliers (Age/Ratings/Latitude/Longitude)
+    - Empty/NaN/Null Data:
+        - NaN for Festival replaced with Mode (No)
+        - NaN for City replaced with Mode (Metropolitan)
+        - NaN for MultipleDeliveries replaced with Mode (1)
+    - Column Names were all renamed to Camel Case
+    - Column Variable Values had leading whitespace removed for consistency
+
 2. [Exploratory Data Analysis, Data-Driven Insights & Recommendations](https://github.com/Georgetxm/SC1015/blob/main/Exploratory_Data_Analysis.ipynb)
+    - Distribution of Numeric Columns (Response Variable - Delivery Time Taken with any other numerical variables)
+    - Correlation of Numeric Columns (Multiple deliveries has the highest coefficient with the time taken while ratings have a negative correlation with time taken which means a high rating usually leads to lower delivery time)
+    - Plotting of orders geographically with a heatmap
+    - Reponse with Categorical Fatures using a boxplot
+    - Using a line chart to observe the average delivery time throughout the day.
+    - Feature Engineering - Distance, using the haversine formula
+    - Feature Engineering - Speed, to determine if vehicle conditions would affect speed, using a violin plot. 
+   
 3. [Machine Learning Techniques to solve the problem](https://github.com/Georgetxm/SC1015/blob/main/Machine_Learning_without_distance.ipynb)
 4. [Machine Learning with engineered feature: distance](https://github.com/Georgetxm/SC1015/blob/main/Machine_Learning_V2_w_distanceipynb)
+    - Predicting Time Taken
+    - Using Numerical Data
+        - Univariate LinReg
+        - Multivariate LinReg
+    - Both categorical and numerical data
+        - Adding Categorical Data: ANOVA Test & One-Hot Encoding
+        - Decision Trees
+        - Random Forest
+        - Lasso Regression
+        - XGBoost
+    - Using engineered data
+        - Distance
+    - Model Evaluation
+        - Results with Engineered Feature (Comparison between the Old & New R^2 and MSE Score) 
 
     We have 2 notebooks showcase the differences of our models with and without the engineered feature. Please use [4](https://github.com/Georgetxm/SC1015/blob/main/Machine_Learning_V2_w_distanceipynb) to grade us as 3 is merely to showcase our thought process.
 
@@ -36,7 +68,7 @@ With online orders increasing since the pandemic, customers want to know when th
 - Factors that could affect **Delivery Time** includes:
     - Numerical Columns 
         - Distances, Multiple deliveries and age. (Positive Correlation)
-        - Ratings (Negatively Correlated)
+        - Ratings (Negatively Correlation)
     - Categorical Features 
         - Traffic Density
         - City Terrain 
