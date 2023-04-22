@@ -47,11 +47,10 @@ With online orders increasing since the pandemic, customers want to know when th
 
 ### Key Learning Points
 1. Using Plotly as a tool for interactive visualisation
-2. Deriving distance from latitude and longitude coordinates, using the haversine formula;
-3. Feature Engineering
-4. Implmentation of XGBoost Algorithm 
-5.
-6.
+2. Deriving distance from latitude and longitude coordinates, using the haversine formula
+3. Feature engineering (engineering Distance and DeliverySpeed)
+4. Performing ANOVA test and SelectFromModel for feature selection
+5. Implmentation of XGBoost Algorithm, Lasso Regression, Random Forest Regressor, and Grid Search Cross Validation
 
 ### Contributors
 
