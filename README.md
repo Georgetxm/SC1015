@@ -50,7 +50,7 @@ With online orders increasing since the pandemic, customers want to know when th
 2. Deriving distance from latitude and longitude coordinates, using the haversine formula
 3. Feature engineering (engineering Distance and DeliverySpeed)
 4. Performing ANOVA test and SelectFromModel for feature selection
-5. Implmentation of XGBoost Algorithm, Lasso Regression, Random Forest Regressor, and Grid Search Cross Validation
+5. Implementation of XGBoost, Lasso Regression, Random Forest Regressor, and Grid Search Cross Validation
 
 ### Contributors
 
