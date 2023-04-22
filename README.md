@@ -20,7 +20,7 @@ With online orders increasing since the pandemic, customers want to know when th
 
 - [Original Dataset](https://github.com/Georgetxm/SC1015/blob/main/train.csv)
 - [Cleaned Dataset](https://github.com/Georgetxm/SC1015/blob/main/train_cleaned.csv)
-- Presentation Slides
+- [Presentation Slides](https://github.com/Georgetxm/SC1015/blob/main/SC1015-MiniProj.pdf)
 - Video can be assessed from this [link]
 
 ### Walk-Through
