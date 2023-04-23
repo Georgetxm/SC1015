@@ -26,14 +26,13 @@ With online orders increasing since the pandemic, customers want to know when th
 ### Walk-Through
 1. [Data Preparation and Cleaning](https://github.com/Georgetxm/SC1015/blob/main/Data_Preparation_Cleaning.ipynb)
     - Extracting numeric values to type int64 and dropping NA values of “Time_taken(min)” 
-    - Removing the “conditions” word present in every row from “Weatherconditions” column
     - Outliers (Age/Ratings/Latitude/Longitude)
     - Empty/NaN/Null Data
     - Column Names were all renamed to Camel Case
 
 2. [Exploratory Data Analysis, Data-Driven Insights & Recommendations](https://github.com/Georgetxm/SC1015/blob/main/Exploratory_Data_Analysis.ipynb)
-    - Distribution of Numeric Columns (Response Variable - Delivery Time Taken with any other numerical variables)
-    - Correlation of Numeric Columns (Multiple deliveries has the highest coefficient with the time taken while ratings have a negative correlation with time taken which means a high rating usually leads to lower delivery time)
+    - Distribution of Numeric Columns
+    - Correlation of Numeric Columns
     - Plotting of orders geographically with a heatmap
     - Using a line chart to observe the average delivery time throughout the day.
     - Feature Engineering - Distance, Speed
