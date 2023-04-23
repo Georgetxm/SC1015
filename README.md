@@ -28,21 +28,15 @@ With online orders increasing since the pandemic, customers want to know when th
     - Extracting numeric values to type int64 and dropping NA values of “Time_taken(min)” 
     - Removing the “conditions” word present in every row from “Weatherconditions” column
     - Outliers (Age/Ratings/Latitude/Longitude)
-    - Empty/NaN/Null Data:
-        - NaN for Festival replaced with Mode (No)
-        - NaN for City replaced with Mode (Metropolitan)
-        - NaN for MultipleDeliveries replaced with Mode (1)
+    - Empty/NaN/Null Data
     - Column Names were all renamed to Camel Case
-    - Column Variable Values had leading whitespace removed for consistency
 
 2. [Exploratory Data Analysis, Data-Driven Insights & Recommendations](https://github.com/Georgetxm/SC1015/blob/main/Exploratory_Data_Analysis.ipynb)
     - Distribution of Numeric Columns (Response Variable - Delivery Time Taken with any other numerical variables)
     - Correlation of Numeric Columns (Multiple deliveries has the highest coefficient with the time taken while ratings have a negative correlation with time taken which means a high rating usually leads to lower delivery time)
     - Plotting of orders geographically with a heatmap
-    - Reponse with Categorical Fatures using a boxplot
     - Using a line chart to observe the average delivery time throughout the day.
-    - Feature Engineering - Distance, using the haversine formula
-    - Feature Engineering - Speed, to determine if vehicle conditions would affect speed, using a violin plot. 
+    - Feature Engineering - Distance, Speed
    
 3. [Machine Learning Techniques to solve the problem](https://github.com/Georgetxm/SC1015/blob/main/Machine_Learning_without_distance.ipynb)
 4. [Machine Learning with engineered feature: distance](https://github.com/Georgetxm/SC1015/blob/main/Machine_Learning_V2_w_distanceipynb)
@@ -51,13 +45,11 @@ With online orders increasing since the pandemic, customers want to know when th
         - Univariate LinReg
         - Multivariate LinReg
     - Both categorical and numerical data
-        - Adding Categorical Data: ANOVA Test & One-Hot Encoding
+        - ANOVA Test & One-Hot Encoding
         - Decision Trees
         - Random Forest
         - Lasso Regression
         - XGBoost
-    - Using engineered data
-        - Distance
     - Model Evaluation
         - Results with Engineered Feature (Comparison between the Old & New R^2 and MSE Score) 
 
@@ -85,6 +77,9 @@ With online orders increasing since the pandemic, customers want to know when th
 5. Implementation of XGBoost, Lasso Regression, Random Forest Regressor, and Grid Search Cross Validation
 
 ### Contributors
+- Teo Xuan Ming: Data Cleaning, EDA, Feature Engineering, Machine Learning, Data Driven Insights from EDA and ML, Presentation Slides, Video
+- Lim Yan Xuan: Data Cleaning, EDA, Feature Engineering, Machine Learning, Data Driven Insights from EDA and ML, Presentation Slides, Video
+- Pascalis Pandey: Data Cleaning, EDA, Feature Engineering, Machine Learning, Data Driven Insights from EDA and ML, Presentation Slides, Video
 
 ### References
 1. [Data-to-Viz](https://www.data-to-viz.com/)
