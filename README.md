@@ -25,14 +25,12 @@ With online orders increasing since the pandemic, customers want to know when th
 
 ### Walk-Through
 1. [Data Preparation and Cleaning](https://github.com/Georgetxm/SC1015/blob/main/Data_Preparation_Cleaning.ipynb)
-    - Extracting numeric values to type int64 and dropping NA values of “Time_taken(min)” 
     - Outliers (Age/Ratings/Latitude/Longitude)
     - Empty/NaN/Null Data
     - Column Names were all renamed to Camel Case
 
 2. [Exploratory Data Analysis, Data-Driven Insights & Recommendations](https://github.com/Georgetxm/SC1015/blob/main/Exploratory_Data_Analysis.ipynb)
-    - Distribution of Numeric Columns
-    - Correlation of Numeric Columns
+    - Distribution/Correlation of Numeric Columns
     - Plotting of orders geographically with a heatmap
     - Using a line chart to observe the average delivery time throughout the day.
     - Feature Engineering - Distance, Speed
@@ -41,8 +39,7 @@ With online orders increasing since the pandemic, customers want to know when th
 4. [Machine Learning with engineered feature: distance](https://github.com/Georgetxm/SC1015/blob/main/Machine_Learning_V2_w_distanceipynb)
     - Predicting Time Taken
     - Using Numerical Data
-        - Univariate LinReg
-        - Multivariate LinReg
+        - Univariate/Multivariate LinReg
     - Both categorical and numerical data
         - ANOVA Test & One-Hot Encoding
         - Decision Trees
@@ -59,7 +56,7 @@ With online orders increasing since the pandemic, customers want to know when th
 - Factors that could affect **Delivery Time** includes:
     - Numerical Columns 
         - Distances, Multiple deliveries and age. (Positive Correlation)
-        - Ratings (Negatively Correlation)
+        - Ratings (Negative Correlation)
     - Categorical Features 
         - Traffic Density
         - City Terrain 
